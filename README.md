@@ -39,10 +39,7 @@ Neovim's configurations are located under the following paths, depending on your
 Clone kickstart.nvim:
 
 ```sh
-# on Linux and Mac
-git clone https://github.com/nvim-lua/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
-# on Windows
-git clone https://github.com/nvim-lua/kickstart.nvim.git %userprofile%\AppData\Local\nvim\ 
+git clone https://github.com/murgeljm/kickstart.nvim.git "${XDG_CONFIG_HOME:-$HOME/.config}"/nvim
 ```
 
 ### Post Installation
@@ -52,13 +49,6 @@ Run the following command and then **you are ready to go**!
 ```sh
 nvim --headless "+Lazy! sync" +qa
 ```
-
-### Recommended Steps
-
-[Fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo) this repo (so that you have your own copy that you can modify) and then installing you can install to your machine using the methods above.
-
-> **NOTE**  
-> Your fork's url will be something like this: `https://github.com/<your_github_username>/kickstart.nvim.git`
 
 ### Configuration And Extension
 
